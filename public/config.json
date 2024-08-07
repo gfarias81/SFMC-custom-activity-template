@@ -4,7 +4,7 @@
     {
         "icon": "images/icon.png",
         "iconSmall": "images/iconSmall.png",
-        "category": "<CATEGORY_OF_APP_BASED_ON_DOCS>"
+        "category": "message"
     },
 
     "type": "REST",
@@ -12,8 +12,8 @@
     {
         "en-US":
         {
-            "name": "<NAME_OF_APP>",
-            "description": "<DESC_OF_APP>",
+            "name": "Test custom activity",
+            "description": "Desc Test custom activity",
             "step1Label": "Configure Activity"
         }
     },
@@ -27,7 +27,7 @@
               }
             ],
             "outArguments": [],
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/execute",
+            "url": "https://atividade-customizada-b112950cfd4e.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -39,28 +39,28 @@
     
     "configurationArguments":
     {
-        "applicationExtensionKey": "<APP EXTENSION KEY>",
+        "applicationExtensionKey": "e2f81346-35f0-4801-98a2-e4ff72d5ce55",
         "save":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/save",
+            "url": "https://atividade-customizada-b112950cfd4e.herokuapp.com/journeybuilder/save",
             "verb": "POST",
             "useJwt": true
         },
         "publish":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/publish",
+            "url": "https://atividade-customizada-b112950cfd4e.herokuapp.com/journeybuilder/publish",
             "verb": "POST",
             "useJwt": true
         },
         "stop":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/stop",
+            "url": "https://atividade-customizada-b112950cfd4e.herokuapp.com/journeybuilder/stop",
             "verb": "POST",
             "useJwt": true
         },
         "validate":
         {
-            "url": "<HTTPS_URL_OF_APP>/journeybuilder/validate",
+            "url": "https://atividade-customizada-b112950cfd4e.herokuapp.com/journeybuilder/validate",
             "verb": "POST",
             "useJwt": true
         }
